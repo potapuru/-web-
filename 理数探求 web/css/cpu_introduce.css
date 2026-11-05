@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*#################基本のスタイル###################*/
+
+body{
+    background-color: #ffcfcf;
+    font-family: 'Noto Sans JP', "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+/*##################################################*/
+
+/*###################ヘッダーのスタイル##############*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header .button{
+    transition: background-color 0.3s ease;
+    width: 25%;
+}
+
+.header .button:hover{
+    background-color: #7c7c7c;
+}
+
+.header .button .move{
+    text-align: center;
+}
+/*###################################################*/
+
+/*##################タイトル############################*/
+.title{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.title2{
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 40px 30px 40px;
+}
+
+.title_photo{
+    padding-left: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.title_photo .photo{
+    width: 60%;
+    height: 60%;
+}
+
+.title_photo .title_text{
+    font-weight: 600;
+}
+
+.title_photo .title_text .a{
+    font-size: 20px;
+}
+
+.title_photo .title_text .b{
+    font-size: 25px;
+}
+
+
+.title_photo .title_text .c{
+    padding-top: 50px;
+    font-size: 23px;
+    text-decoration: line-through;
+}
+
+.title_photo .title_text .d{
+    color: #ff0000;
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 1200;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*##################################################*/
+
+/*##################本文１###################*/
+.text2 .a{
+    margin: 0 40px 0 40px;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.text2 .b{
+    margin: 0 40px 0 40px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text2 .c{
+    color: #ff0000;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 40px 0 40px;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+/*#################################################*/
+
+/*######################目次######################*/
+
+.mokuji {
+    margin: 60px 50px 0 50px;
+    border: 2px solid #000000;
+}
+
+.mokuji .titl{
+    margin: 10px 20px 0 20px;
+    font-size: 75px;
+}
+
+.mokuji .a{
+    margin: 10px 50px 0 100px;
+    font-size: 20px;
+   
+}
+
+/*###############################################*/
