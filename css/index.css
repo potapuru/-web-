@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/*#################基本のスタイル###################*/
+
+body{
+    font-family: 'Noto Sans JP', "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #ffcfcf;
+    font-weight: 500;
+}
+/*##################################################*/
+
+/*###################ヘッダーのスタイル##############*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header .button{
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+
+.header .button:hover{
+    background-color: #7c7c7c;
+}
+
+.header .button .move{
+    text-align: center;
+}
+/*###################################################*/
+/*#######################タイトル#####################*/
+.title .midasi{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5vw;
+    color: #922e43;
+}
+
+.title_photo{
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.title .photo{
+    display: inline;
+    padding-left: 45px;
+}
+
+.title .photo .text{
+    font-size: 25px;
+    display: inline;
+    margin-left: 100px;
+    font-size: 10px;
+}
+/*##############################################*/
+
+/*###################説明#####################*/
+
+.setumei .midasi{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5vw;
+    color: #922e43;
+}
+
+.setumei .text{
+    font-size: 25px;
+    margin: 0 100px 0 100px;
+}
+
+.setumei .text2{
+    font-size: 50px;
+    text-align: center;
+}
+/*###################################################*/
+
+/*##################リンク１CPU#######################*/
+
+.cpu .midasi {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5vw;
+    color: #922e43;
+}
+
+.cpu .text{
+    padding: 0 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cpu .button{
+    font-size: 40px;
+    margin: 0 27vw;
+}
+
+.cpu .button .move{
+    color: #733322;
+    text-align: center;
+}
+
+.cpu .button :hover{
+    background-color: #7c7c7c;
+}
+
+/*####################################################*/
+
+/*#################リンク２用語解説#################*/
+
+.word .midasi {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5vw;
+    color: #922e43;
+}
+
+.word .text{
+    padding: 0 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.word .button{
+    font-size: 40px;
+    margin: 0 27vw;
+}
+
+.word .button .move{
+    color: #733322;
+    text-align: center;
+}
+
+.word .button :hover{
+    background-color: #7c7c7c;
+}
+
+/*################################################*/
+
+/*################リンク３日々の作業風景#################*/
+
+.nitijou .midasi {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 5vw;
+    color: #922e43;
+}
+
+.nitijou .text{
+    padding: 0 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.nitijou .button{
+    font-size: 40px;
+    margin: 0 27vw;
+}
+
+.nitijou .button .move{
+    color: #733322;
+    text-align: center;
+}
+
+.nitijou .button :hover{
+    background-color: #7c7c7c;
+}
+
+/*###########################################*/

@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*#################基本のスタイル###################*/
+
+body{
+    font-family: 'Noto Sans JP', "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333;
+    background-color: #ffcfcf;
+}
+/*##################################################*/
+
+/*###################ヘッダーのスタイル##############*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header .button{
+    transition: background-color 0.3s ease;
+    width: 25%;
+}
+
+.header .button:hover{
+    background-color: #7c7c7c;
+}
+
+.header .button .move{
+    text-align: center;
+}
+/*###################################################*/
+
+/*################タイトル############################*/
+
+.title{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.maeoki{
+    
+}
+
+.maeoki .a{
+    font-size: 25px;
+    margin: 5px 40px 0 40px;
+}
+
+/*####################################################*/
+
+/*######################目次######################*/
+
+.mokuji {
+    margin: 60px 50px 0 50px;
+    border: 2px solid #000000;
+}
+
+.mokuji .titl{
+    margin: 10px 20px 0 40px;
+    font-size: 75px;
+}
+
+.mokuji .a{
+    margin: 10px 50px 0 100px;
+    font-size: 20px;
+   
+}
+
+/*###############################################*/
+
+#cpu{
+    margin: 100px 0 0 50px;
+}
+
+#cpu .titl{
+
+}
