@@ -225,6 +225,8 @@ body{
 .title .photo{
     display: inline;
     padding-left: 45px;
+    width: 300px;
+    height: 225px;
 }
 
 .title .photo .text{
